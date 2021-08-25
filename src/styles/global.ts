@@ -26,10 +26,11 @@ export const GlobalStyle = createGlobalStyle`
         @media(max-width: 728px){
             font-size: 87.5%;
         }
+        background: var(--background);
+
     }
 
     body: {
-        background: var(--background);
         -webkit-font-smothing: antialiased;
     }
 
@@ -41,6 +42,5 @@ export const GlobalStyle = createGlobalStyle`
 
     h1, h2, h3, h4, h5, h6, strong {
         font-weight: 600;
-        color: var(--title);
     }
 `;
