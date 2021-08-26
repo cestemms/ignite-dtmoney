@@ -21,13 +21,5 @@ export const Content = styled.div`
     border: 0;
     border-radius: 0.25rem;
     height: 3rem;
-
-    cursor: pointer;
-
-    transition: filter 0.2s;
-
-    &:hover{
-      filter: brightness(0.9);
-    }
   }
 `;
