@@ -6,7 +6,7 @@ export function TransactionsTable() {
 
     const tableTitle = ['Título', 'Valor', 'Categoria', 'Data'];
 
-    const transactions = useContext(TransactionsContext);
+    const { transactions } = useContext(TransactionsContext);
 
     return(
         <S.Container>
